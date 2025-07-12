@@ -31,8 +31,12 @@ if (alphabet.length>1) {
     console.log(alphabet);
 
 //const :fixed variable we cannot reassigned once its done
-const days=7;
+/* const days=7;
 days=8;
 console.log(100 * days);
 console.log("variables done");
+*/
 
+let sc=15;
+sc=20;
+console.log(sc);
