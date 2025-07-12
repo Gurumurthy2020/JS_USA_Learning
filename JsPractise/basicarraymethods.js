@@ -47,4 +47,3 @@ console.log(as);
 
 let asx=sc.map(sc=>sc*5);
 console.log(asx);
-console.log("--------");

@@ -21,7 +21,7 @@ let color=["red","orange","black"];
 
  //splic
  let animals=["zebra","lion","snake"];
- animals.splice(0,2,"kong","cheeta");
+ animals.splice(1,3,"kong","cheeta");
  console.log(animals);
 
  //slice
@@ -57,3 +57,16 @@ let color=["red","orange","black"];
         console.log(e);
     }
  })
+
+ let sd=[1,2,3,4,5];
+ let q1a=sd.splice(1,2);
+console.log(q1a);
+console.log(sd);
+let aa=sd.slice(1,2);
+console.log(aa);
+
+
+let fg=[1,4,5,6]
+let ed=fg.slice(0,2);
+console.log(ed);
+
