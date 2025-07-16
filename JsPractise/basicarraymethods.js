@@ -47,3 +47,20 @@ console.log(as);
 
 let asx=sc.map(sc=>sc*5);
 console.log(asx);
+
+console.log("--------------------");
+var fruits=["orange","apple","mango","aprocot"];
+fruits.sort();
+console.log(fruits);
+
+let nums=[12,14,16,45,25,35,3];
+nums.sort();
+console.log(nums);
+
+nums.sort((a,b)=>a-b);
+console.log(nums);
+
+console.log("--------------------");
+
+let summnum=(c,d)=>c+d;
+console.log(summnum(4,5));
